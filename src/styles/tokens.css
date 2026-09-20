@@ -1,0 +1,273 @@
+/* Design tokens — generated from Figma. Do not edit by hand. */
+
+:root {
+    /* ===== Primitives ===== */
+
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-grey: #f5f5f7;
+    --color-neutral-50: #fafafb;
+    --color-neutral-100: #f4f5f7;
+    --color-neutral-200: #e8eaf0;
+    --color-neutral-300: #d7dae2;
+    --color-neutral-400: #b6bac6;
+    --color-neutral-500: #9696a1;
+    --color-neutral-600: #6b6b78;
+    --color-neutral-700: #505062;
+    --color-neutral-800: #363643;
+    --color-neutral-900: #22222d;
+    --color-yellow-100: #fef9c2;
+    --color-yellow-200: #fff085;
+    --color-yellow-700: #a65f00;
+    --color-yellow-800: #894b00;
+    --color-pink-100: #fce7f3;
+    --color-pink-200: #fccee8;
+    --color-pink-700: #c6005c;
+    --color-pink-800: #a3004c;
+    --color-blue-50: #eff6ff;
+    --color-blue-100: #dbeafe;
+    --color-blue-200: #bedbff;
+    --color-blue-300: #8ec5ff;
+    --color-blue-400: #51a2ff;
+    --color-blue-500: #2b7fff;
+    --color-blue-600: #155dfc;
+    --color-blue-700: #1447e6;
+    --color-blue-800: #193cb8;
+    --color-blue-900: #1c398e;
+    --color-blue-950: #162456;
+    --color-green-50: #f0fdf4;
+    --color-green-100: #dcfce7;
+    --color-green-200: #b9f8cf;
+    --color-green-300: #7bf1a8;
+    --color-green-400: #05df72;
+    --color-green-500: #00c950;
+    --color-green-600: #00a63e;
+    --color-green-700: #008236;
+    --color-green-800: #016630;
+    --color-green-900: #0d542b;
+    --color-green-950: #032e15;
+    --color-red-50: #fef2f2;
+    --color-red-100: #ffe2e2;
+    --color-red-200: #ffc9c9;
+    --color-red-300: #ffa2a2;
+    --color-red-400: #ff6467;
+    --color-red-500: #fb2c36;
+    --color-red-600: #e7000b;
+    --color-red-700: #c10007;
+    --color-red-800: #9f0712;
+    --color-red-900: #82181a;
+    --color-red-950: #460809;
+    --color-violet-50: #f5f3ff;
+    --color-violet-100: #ede9fe;
+    --color-violet-200: #ddd6ff;
+    --color-violet-600: #7f22fe;
+    --color-violet-700: #7008e7;
+    --color-violet-800: #5d0ec0;
+    --color-teal-50: #f0fdfa;
+    --color-teal-100: #cbfbf1;
+    --color-teal-200: #96f7e4;
+    --color-teal-700: #00786f;
+    --color-teal-800: #005f5a;
+    --color-purple-100: #f3e8ff;
+    --color-purple-200: #e9d4ff;
+    --color-purple-700: #8200db;
+    --color-purple-800: #6e11b0;
+    --color-slate-50: #f8fafc;
+    --color-slate-100: #f1f5f9;
+    --color-slate-400: #90a1b9;
+    --color-slate-500: #62748e;
+    --color-slate-600: #45556c;
+    --color-slate-700: #314158;
+    --color-slate-800: #1d293d;
+    --color-emerald-50: #ecfdf5;
+    --color-emerald-100: #d0fae5;
+    --color-emerald-600: #009966;
+    --color-emerald-700: #007a55;
+    --color-emerald-800: #006045;
+    --color-amber-50: #fffbeb;
+    --color-amber-100: #fef3c6;
+    --color-amber-600: #e17100;
+    --color-amber-700: #bb4d00;
+    --color-sky-50: #f0f9ff;
+    --color-sky-100: #dff2fe;
+    --color-sky-600: #0084d1;
+    --color-sky-700: #0069a8;
+    --color-rose-50: #fff1f2;
+    --color-rose-100: #ffe4e6;
+    --color-rose-700: #c70036;
+    --color-orange-50: #fff7ed;
+    --color-orange-100: #ffedd4;
+    --color-orange-600: #f54900;
+    --color-orange-700: #ca3500;
+    --color-orange-800: #9f2d00;
+    --color-indigo-50: #eef2ff;
+    --color-indigo-100: #e0e7ff;
+    --color-indigo-600: #4f39f6;
+    --color-indigo-700: #432dd7;
+    --color-indigo-800: #372aac;
+
+    --spacing-0: 0;
+    --spacing-2: 2px;
+    --spacing-4: 4px;
+    --spacing-5: 5px;
+    --spacing-8: 8px;
+    --spacing-10: 10px;
+    --spacing-12: 12px;
+    --spacing-16: 16px;
+    --spacing-20: 20px;
+    --spacing-24: 24px;
+    --spacing-32: 32px;
+    --spacing-40: 40px;
+    --spacing-42: 42px;
+    --spacing-48: 48px;
+    --spacing-64: 64px;
+    --spacing-128: 128px;
+
+    --radius-none: 0;
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-8: 8px;
+    --radius-lg: 10px;
+    --radius-xl: 16px;
+    --radius-2xl: 20px;
+    --radius-full: 9999px;
+
+    --size-16: 16px;
+    --size-20: 20px;
+    --size-24: 24px;
+    --size-32: 32px;
+    --size-40: 40px;
+    --size-48: 48px;
+    --size-64: 64px;
+    --size-308: 308px;
+    --size-338: 338px;
+
+    /* ===== Semantic tokens ===== */
+
+    --accent-pink-fill: var(--color-pink-100);
+    --accent-pink-content: var(--color-pink-800);
+    --accent-pink-border: var(--color-pink-200);
+
+    --surface-page: var(--color-neutral-50);
+    --surface-card: var(--color-white);
+    --surface-subtle: var(--color-grey);
+
+    --content-primary: var(--color-neutral-900);
+    --content-secondary: var(--color-neutral-600);
+    --content-tertiary: var(--color-neutral-500);
+    --content-disabled: var(--color-neutral-400);
+
+    --status-no-status-fill: var(--color-neutral-100);
+    --status-success-fill: var(--color-green-100);
+    --status-failed-fill: var(--color-red-100);
+    --status-in-progress-fill: var(--color-blue-100);
+    --status-no-status-content: var(--color-neutral-600);
+    --status-no-status-border: var(--color-neutral-200);
+    --status-in-progress-content: var(--color-blue-800);
+    --status-in-progress-border: var(--color-blue-200);
+    --status-failed-content: var(--color-red-800);
+    --status-failed-border: var(--color-red-200);
+    --status-success-content: var(--color-green-800);
+    --status-success-border: var(--color-green-200);
+
+    --border-default: #e1e4e8;
+    --border-focus: #9ca3af;
+    --border-subtle: #e1e4e8;
+    --border-strong: var(--color-neutral-300);
+
+    --layout-page-padding: 20px;
+    --layout-card-padding: 20px;
+    --layout-card-gap: 16px;
+    --layout-section-gap: 24px;
+    --layout-control-height: 44px;
+    --layout-badge-size: 40px;
+
+    --overlay-scrim: #00000066;
+
+    --accent-violet-fill: var(--color-violet-100);
+    --accent-violet-content: var(--color-violet-800);
+    --accent-violet-border: var(--color-violet-200);
+    --accent-teal-fill: var(--color-teal-100);
+    --accent-teal-content: var(--color-teal-800);
+    --accent-teal-border: var(--color-teal-200);
+    --accent-yellow-fill: var(--color-yellow-100);
+    --accent-yellow-content: var(--color-yellow-800);
+    --accent-yellow-border: var(--color-yellow-200);
+
+    /* ===== Component tokens ===== */
+
+    --owner-pill-pink-fill: var(--accent-pink-fill);
+    --owner-pill-pink-content: var(--accent-pink-content);
+    --owner-pill-pink-border: var(--accent-pink-border);
+    --owner-pill-violet-fill: var(--accent-violet-fill);
+    --owner-pill-violet-content: var(--accent-violet-content);
+    --owner-pill-violet-border: var(--accent-violet-border);
+    --owner-pill-yellow-fill: var(--accent-yellow-fill);
+    --owner-pill-yellow-content: var(--accent-yellow-content);
+    --owner-pill-yellow-border: var(--accent-yellow-border);
+    --owner-pill-teal-fill: var(--accent-teal-fill);
+    --owner-pill-teal-content: var(--accent-teal-content);
+    --owner-pill-teal-border: var(--accent-teal-border);
+
+    /* Every status has exactly one fill/content/border triple — the dashboard card's band and
+	 * the modal's badge must always read as the same color for the same status, so both classes
+	 * and bandClasses in constants.ts draw from these same tokens. There is no separate "band"
+	 * tone; a prior pass invented one from an unrelated, incorrect export and it must not come
+	 * back. */
+    --status-badge-success-fill: var(--status-success-fill);
+    --status-badge-success-content: var(--status-success-content);
+    --status-badge-success-border: var(--status-success-border);
+    --status-badge-failed-fill: var(--status-failed-fill);
+    --status-badge-failed-content: var(--status-failed-content);
+    --status-badge-failed-border: var(--status-failed-border);
+    --status-badge-in-progress-fill: var(--status-in-progress-fill);
+    --status-badge-in-progress-content: var(--status-in-progress-content);
+    --status-badge-in-progress-border: var(--status-in-progress-border);
+    --status-badge-no-status-fill: var(--status-no-status-fill);
+    --status-badge-no-status-content: var(--status-no-status-content);
+    --status-badge-no-status-border: var(--status-no-status-border);
+
+    /* ===== Elevation ===== */
+    --elevation-card: 0px 4px 16px -2px #00000014;
+    --elevation-backdrop-blur: 8px;
+
+    /* ===== Typography ===== */
+    --font-family-base: "Google Sans Flex", system-ui, sans-serif;
+    --type-heading-md: 500 24px / 32px var(--font-family-base);
+    --type-heading-sm: 500 18px / 24px var(--font-family-base);
+    --type-body: 500 16px / 24px var(--font-family-base);
+    --type-body-regular: 400 16px / 24px var(--font-family-base);
+    --type-label: 300 14px / 20px var(--font-family-base);
+    --type-label-regular: 400 14px / 20px var(--font-family-base);
+    --type-caption: 300 12px / 18px var(--font-family-base);
+}
+
+/* Typography utility classes (mirror Figma text styles) */
+.text-heading-md {
+    font: var(--type-heading-md);
+    letter-spacing: 0;
+}
+.text-heading-sm {
+    font: var(--type-heading-sm);
+    letter-spacing: 0;
+}
+.text-body {
+    font: var(--type-body);
+    letter-spacing: 0;
+}
+.text-body-regular {
+    font: var(--type-body-regular);
+    letter-spacing: 0;
+}
+.text-label {
+    font: var(--type-label);
+    letter-spacing: 0;
+}
+.text-label-regular {
+    font: var(--type-label-regular);
+    letter-spacing: 0;
+}
+.text-caption {
+    font: var(--type-caption);
+    letter-spacing: 0;
+}

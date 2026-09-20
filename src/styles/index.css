@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600;700&display=swap");
+@import "tailwindcss" source(none);
+@import "tw-animate-css";
+@import "./tokens.css";
+@import "./theme.css";
+@import "react-day-picker/style.css";
+
+/* Every @import above must precede this — a non-@import/@layer/@charset at-rule (like @source)
+ * invalidates any @import after it per spec, even though the Tailwind build tolerates it. */
+@source "../**/*.{js,ts,jsx,tsx}";
+
+.rdp-root {
+    --rdp-accent-color: var(--content-primary);
+    --rdp-accent-background-color: color-mix(
+        in srgb,
+        var(--content-primary) 7%,
+        transparent
+    );
+    --rdp-today-color: var(--content-primary);
+    --rdp-day-height: 36px;
+    --rdp-day-width: 36px;
+    --rdp-day_button-height: 34px;
+    --rdp-day_button-width: 34px;
+    --rdp-day_button-border-radius: 8px;
+    --rdp-nav_button-height: 2rem;
+    --rdp-nav_button-width: 2rem;
+}
